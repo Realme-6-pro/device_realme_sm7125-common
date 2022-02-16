@@ -107,7 +107,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
 KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin/aarch64-linux-gnu-
-TARGET_KERNEL_SOURCE := kernel/realme/sm7125
+TARGET_KERNEL_SOURCE := kernel/realme/atoll
 TARGET_KERNEL_CONFIG := atoll_defconfig
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
