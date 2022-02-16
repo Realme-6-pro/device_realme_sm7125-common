@@ -105,6 +105,7 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_VERSION := 4.14
 #TARGET_KERNEL_CLANG_VERSION := clang-r416183b1
 #KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin/aarch64-linux-gnu-
 TARGET_KERNEL_SOURCE := kernel/realme/atoll
