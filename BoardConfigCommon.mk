@@ -178,11 +178,8 @@ BOARD_FLASH_BLOCK_SIZE := 262144
 TARGET_BOARD_PLATFORM := atoll
 TARGET_BOOTLOADER_BOARD_NAME := atoll
 
-# Vulkan
-TARGET_USES_VULKAN := true
-
 # Power
-TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
+TARGET_POWERHAL_BOOST_EXT := $(COMMON_PATH)/power/boost-ext.cpp
 
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
