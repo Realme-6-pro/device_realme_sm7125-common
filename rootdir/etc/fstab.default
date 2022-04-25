@@ -65,4 +65,4 @@ odm                                                    /odm                     
 /dev/block/bootdevice/by-name/custom                   /my_custom                ext4    ro,barrier=1,discard                               wait
 
 # Zram
-/dev/block/zram0                                        none                     swap    defaults        zramsize=2147483648,max_comp_streams=8
+/dev/block/zram0                                        none                     swap    defaults        zramsize=2147483648,max_comp_streams=8,zram_backingdev_size=512M
