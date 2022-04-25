@@ -201,3 +201,9 @@ vendor.usb.rndis.func.name=rndis_bam
 
 # Wi-Fi
 wifi.aware.interface=wifi-aware0
+
+# zram
+# Zram-writeback
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=180
+ro.zram.periodic_wb_delay_hours=24
