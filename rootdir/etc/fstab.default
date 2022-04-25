@@ -63,3 +63,6 @@ odm                                                    /odm                     
 
 /dev/block/by-name/opporeserve2                        /mnt/vendor/opporeserve   ext4    nosuid,nodev,noatime,barrier=1                     wait,check,first_stage_mount,nofail
 /dev/block/bootdevice/by-name/custom                   /my_custom                ext4    ro,barrier=1,discard                               wait
+
+# Zram
+/dev/block/zram0                                        none                     swap    defaults        zramsize=2147483648
